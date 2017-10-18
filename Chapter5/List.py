@@ -75,3 +75,56 @@ for i in range(len(spam)):
 
 # the in and not in operator
 
+#the in and not in operator
+
+'''
+spam = ['hello', 'vananh', 'howdy', 'windy']
+
+print('vananh' in spam)
+
+print ('vananh' not in spam)
+'''
+
+# multiple assignment trick
+'''
+dog = ['fat', 'black', 'run']
+
+size = dog[0]
+color = dog[1]
+action = dog[2]
+
+print(dog)
+print(size, color,action)
+'''
+
+#augmented assignment opetators
+'''
+spam = 12
+spam += 2
+print (spam)
+
+flower = ['rose']
+flower = flower *4
+print(flower)
+'''
+
+# append
+
+spam = ['rose']
+spam.append('tulip')
+
+print(spam)
+
+#insert
+spam.insert(1, 'blue')
+print (spam)
+
+#remove
+
+spam.remove('tulip')
+print(spam)
+
+#sort
+spam.sort()
+print(spam)
+
