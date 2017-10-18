@@ -75,8 +75,6 @@ for i in range(len(spam)):
 
 # the in and not in operator
 
-#the in and not in operator
-
 '''
 spam = ['hello', 'vananh', 'howdy', 'windy']
 
@@ -108,6 +106,8 @@ flower = flower *4
 print(flower)
 '''
 
+'''
+
 # append
 
 spam = ['rose']
@@ -127,4 +127,36 @@ print(spam)
 #sort
 spam.sort()
 print(spam)
+
+'''
+
+#finding value in list
+'''
+print(spam.index('rat'))
+
+'''
+
+#tuple data type:  If you need an ordered sequence of values that never changes, use a tuple.
+#code using tuples slightly faster than code using lists
+
+'''
+egg = ('hell',4, 5)
+print (egg)
+
+'''
+
+#Converting list() and tuple() function
+'''
+print(tuple(['dog',5,6]))
+
+print(list(('cat',7,8)))
+
+print(list('vananh'))
+'''
+
+# module's copy() and deepcopy()
+
+
+
+
 
