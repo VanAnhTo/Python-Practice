@@ -84,9 +84,53 @@ print('This Is A T123 Letter'.istitle())
 
 '''
 #The startswith() and endswith() method:
+'''
 print('Hello world'.startswith('Hello world'))
 print('Van Anh'.endswith('123 Anh'))
 print('Vananh123'.startswith('Van'))
 print('Vananh1234'.endswith('1234'))
+'''
+
+#the join() and split() string method:
+'''
+spam1 = 'this is my boyfriend123'
+spam = ['this', 'is','my', 'boyfriend']
+
+print(', '.join(spam))
+print('123'.join(spam))
+
+print(spam1.split())
+print(spam1.split('123'))
+print(spam1.split('s'))
+'''
+
+#Justifying text with rjust(), ljust() and center()
+'''
+print('Van Anh'.rjust(20)) #total length of string, space added from 0 = 20
+print('To Van Anh'.rjust(20))
+
+print('Van Anh'.rjust(20,'$')) #the $ to be add to the string >> length of string= 20
+print('Van Anh'.ljust(20, '@')) #the character added from the last character of string, length = 20
+
+print('VanAnh'.center(20,'*')) 
+'''
+
+#removing whitespace with strip(), rstrip(), lstrip()
+'''
+spam = '       VanAnh          '
+print(spam.strip())
+
+print(spam.lstrip())
+
+print(spam.rsplit())
+spam = 'SpamSpamBaconSpamEggsSpamSpam'
+print(spam.strip('Samp'))
+'''
+#Copy and paste string with pyperclip module:
+#Ex4
+
+
+
+
 
 
