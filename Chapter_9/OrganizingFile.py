@@ -1,6 +1,6 @@
 #The shutil function to let you copy, move, rename and delete files
 
-import shutil, os
+import shutil, os, zipfile
 
 #Copying files and folders
 #shutil.copy(source, destination)
