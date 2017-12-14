@@ -93,3 +93,6 @@ exampleZip.close()
 '''
 
 #Creating and Adding to ZIP Files
+newZip = zipfile.ZipFile(folderPath+ 'new.zip', 'w')
+newZip.write(folderPath+ 'Tigers.txt', compress_type=zipfile.ZIP_DEFLATED)
+newZip.close()
