@@ -1,11 +1,11 @@
 import shutil, os, re
 
-imgFolder = "D:\\AnhTo\\Draft\\img\\"
-newImgFolder = "D:\\AnhTo\\Draft\\img_copy\\"
+imgFolder = "E:\Draft\\img\\"
+newImgFolder = "E:\Draft\\img_copy\\"
 
 imageParten = re.compile(r'^(.*)?(.jpg|.png)$',re.I)
 
-for folder,subfolders, fileNames in os.walk(imgFolder):
+for folder, subfolders, fileNames in os.walk(imgFolder):
 
     print('FOLDER NAME is: '+folder)
 
@@ -16,8 +16,9 @@ for folder,subfolders, fileNames in os.walk(imgFolder):
         mo = imageParten.search(fileName)
         if mo == None:
             continue
-        print('FILE NAME: '+fileName)
+        print('FILE NAME: '+folder+'\\'+fileName)
 
-        #shutil.copy(fileName, newImgFolder)
+        shutil.copy(folder+'\\'+fileName, newImgFolder)
+
     print('\n')
 

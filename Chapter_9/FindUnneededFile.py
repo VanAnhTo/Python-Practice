@@ -1,7 +1,7 @@
 import shutil, os, re
 
-imgFolder = "D:\\AnhTo\\Draft\\img\\"
-for folder,subfolders, fileNames in os.walk(imgFolder):
+imgFolder = "E:\\Draft\\"
+for folder, subfolders, fileNames in os.walk(imgFolder):
 
     print('FOLDER NAME is: '+folder)
 
@@ -9,9 +9,11 @@ for folder,subfolders, fileNames in os.walk(imgFolder):
         print("SUBFOLDER NAME is : " + subfolder)
 
     for fileName in fileNames:
+        #print('FILE NAME: '+fileName)
+        size = os.path.getsize(folder+'\\'+fileName)
+        if size > 31543536:
+            print('File: ' + folder+'\\'+fileName )
 
-        print('FILE NAME: '+fileName)
-        fileInfo = fileName.get
         #Get file size
         #if > 100M > Print out absolute path and file name 
             

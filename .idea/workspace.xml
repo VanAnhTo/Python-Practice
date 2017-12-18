@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d6518e-8442-4000-8ecc-741b84d4ed03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_10/Debugging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_10/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_9/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8/FindUnneededFile.py" afterPath="$PROJECT_DIR$/Chapter_9/FindUnneededFile.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8/OrganizingFile.py" afterPath="$PROJECT_DIR$/Chapter_9/OrganizingFile.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8/RegexSearch_Project.py" afterPath="$PROJECT_DIR$/Chapter_9/RegexSearch_Project.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8/backupToZip.py" afterPath="$PROJECT_DIR$/Chapter_9/backupToZip.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8/renameDates.py" afterPath="$PROJECT_DIR$/Chapter_9/renameDates.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chapter_8/selective_copy.oy" afterPath="$PROJECT_DIR$/Chapter_9/selective_copy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_9/FindUnneededFile.py" afterPath="$PROJECT_DIR$/Chapter_9/FindUnneededFile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_9/selective_copy.py" afterPath="$PROJECT_DIR$/Chapter_9/selective_copy.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,21 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrganizingFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_9/OrganizingFile.py">
+      <file leaf-file-name="Debugging.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_10/Debugging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Debugging.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter_10/Debugging.py">
+      <file leaf-file-name="renameDates.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_9/renameDates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selective_copy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_9/selective_copy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindUnneededFile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_9/FindUnneededFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -103,10 +115,12 @@
         <option value="$PROJECT_DIR$/Chapter_8/OrganizingFile.py" />
         <option value="$PROJECT_DIR$/Chapter_9/OrganizingFile.py" />
         <option value="$PROJECT_DIR$/Chapter_10/Debugging.py" />
+        <option value="$PROJECT_DIR$/Chapter_9/selective_copy.py" />
+        <option value="$PROJECT_DIR$/Chapter_9/FindUnneededFile.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="433" />
     <option name="y" value="1" />
     <option name="width" value="860" />
@@ -130,7 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,13 +155,18 @@
             <path>
               <item name="Python-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Practice" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter_10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,20 +197,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RegexSearch_Project">
-    <configuration name="Ex_Q22" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FindUnneededFile">
+    <configuration name="FindUnneededFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_7/Ex_Q22.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_9/FindUnneededFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,37 +266,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="selective_copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_8/Tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_9/selective_copy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Ex_Q22" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ReadandWriteFiles" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Tree" />
-      <item index="3" class="java.lang.String" itemvalue="Python.MadLibs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.RegexSearch_Project" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ReadandWriteFiles" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MadLibs" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RegexSearch_Project" />
+      <item index="3" class="java.lang.String" itemvalue="Python.selective_copy" />
+      <item index="4" class="java.lang.String" itemvalue="Python.FindUnneededFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.RegexSearch_Project" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MadLibs" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ReadandWriteFiles" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Tree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Ex_Q22" />
+        <item index="0" class="java.lang.String" itemvalue="Python.FindUnneededFile" />
+        <item index="1" class="java.lang.String" itemvalue="Python.selective_copy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RegexSearch_Project" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MadLibs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ReadandWriteFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +314,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -303,7 +322,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39274448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5820189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -349,10 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter5/Ex1_List.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter5/Ex4_Practice.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter5/Chapter4_Practice_project_1.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter5/List.py" />
     <entry file="file://$PROJECT_DIR$/Chapter_5/Ex1_Birthday.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -652,9 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_9/OrganizingFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="1003">
+          <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -662,6 +676,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_9/renameDates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_9/selective_copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_9/FindUnneededFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
