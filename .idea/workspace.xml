@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d6518e-8442-4000-8ecc-741b84d4ed03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_12/inserter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_13/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_14/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_14/csv_json_files.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_14/quickWeather.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,36 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="practice_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_12/practice_1.py">
+      <file leaf-file-name="csv_json_files.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_14/csv_json_files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readCensusExcel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_12/readCensusExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="168">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inserter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter_12/inserter.py">
+      <file leaf-file-name="quickWeather.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_14/quickWeather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="271">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,8 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter5/List.py" />
-        <option value="$PROJECT_DIR$/Chapter5/Ex4_Practice.py" />
         <option value="$PROJECT_DIR$/Chapter5/Chapter4_Practice_project_1.py" />
         <option value="$PROJECT_DIR$/Chapter_5/Ex1_Birthday.py" />
         <option value="$PROJECT_DIR$/Chapter_5/Dictionary_Structure_data.py" />
@@ -115,6 +102,8 @@
         <option value="$PROJECT_DIR$/Chapter_11/webScraping.py" />
         <option value="$PROJECT_DIR$/Chapter_11/emailer.py" />
         <option value="$PROJECT_DIR$/Chapter_12/inserter.py" />
+        <option value="$PROJECT_DIR$/Chapter_14/csv_json_files.py" />
+        <option value="$PROJECT_DIR$/Chapter_14/quickWeather.py" />
       </list>
     </option>
   </component>
@@ -143,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,12 +142,13 @@
             <path>
               <item name="Python-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_12" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +180,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.inserter">
+  <component name="RunManager" selected="Python.csv_json_files">
+    <configuration name="csv_json_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Automated_Boring_Stuff" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_14/csv_json_files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="downloadXkcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,23 +228,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/emailer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="iAmFeelingLucky" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/iAmFeelingLucky.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,18 +268,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.webScraping" />
-      <item index="1" class="java.lang.String" itemvalue="Python.iAmFeelingLucky" />
-      <item index="2" class="java.lang.String" itemvalue="Python.downloadXkcd" />
-      <item index="3" class="java.lang.String" itemvalue="Python.emailer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.inserter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.downloadXkcd" />
+      <item index="2" class="java.lang.String" itemvalue="Python.emailer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.inserter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.csv_json_files" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.inserter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.emailer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.webScraping" />
-        <item index="3" class="java.lang.String" itemvalue="Python.downloadXkcd" />
-        <item index="4" class="java.lang.String" itemvalue="Python.iAmFeelingLucky" />
+        <item index="0" class="java.lang.String" itemvalue="Python.csv_json_files" />
+        <item index="1" class="java.lang.String" itemvalue="Python.inserter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.emailer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.webScraping" />
+        <item index="4" class="java.lang.String" itemvalue="Python.downloadXkcd" />
       </list>
     </recent_temporary>
   </component>
@@ -314,13 +303,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4258675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4258675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -362,20 +351,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter_6/Ex4_CopyPaste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_6/pw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_6/rjust.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -654,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,35 +664,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="31" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_12/inserter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_12/readCensusExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_12/practice_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_12/inserter.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_14/csv_json_files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_14/quickWeather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
