@@ -20,11 +20,23 @@ print(content)
 excelFile = '1.xlsx'
 wb = openpyxl.load_workbook(excelFile)
 sheet = wb.get_sheet_by_name('Sheet')
-d = 1
+'''
 for fileName in os.listdir(folderPath):
     print(fileName)
     print(folderPath+fileName)
     with open(folderPath+fileName) as f:
         content = f.readlines()
         print(content)
+'''
 
+with open(folderPath) as f:
+    content = f.readlines()
+    #print(content)
+
+print(len(content))
+
+
+for j in range(1,len(content)):
+    sheet.cell(row=j,column=1).value = content[j]
+    if j == len(content):
+        sheet.cell(row=j, column=1).value = content[j+1]        
