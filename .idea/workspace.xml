@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d6518e-8442-4000-8ecc-741b84d4ed03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_12/writeToText.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_12/1.xlsx" afterPath="$PROJECT_DIR$/Chapter_12/1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/blogtruyen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/blogtruyen_fixversion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/imgDowload.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/test_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter_12/readLines.py" afterPath="$PROJECT_DIR$/Chapter_12/readLines.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,76 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="csv_json_files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_14/csv_json_files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="writeToText.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_12/writeToText.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readLines.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter_12/readLines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workingExcel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_12/workingExcel.py">
+      <file leaf-file-name="blogtruyen.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-              <folding />
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrganizingFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_9/OrganizingFile.py">
+      <file leaf-file-name="blogtruyen_fixversion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen_fixversion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadandWriteFiles.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_8/ReadandWriteFiles.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindUnneededFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_9/FindUnneededFile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="420">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,12 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter_5/Chapter5_Practice_project_2.py" />
-        <option value="$PROJECT_DIR$/Chapter_5/Pj_2.py" />
-        <option value="$PROJECT_DIR$/Chapter_5/a.py" />
-        <option value="$PROJECT_DIR$/Chapter_5/Chapter5_Practice_project_1.py" />
-        <option value="$PROJECT_DIR$/Chapter_6/Ex1_Lower_Upper.py" />
-        <option value="$PROJECT_DIR$/Chapter_6/Ex2_ValidateInput.py" />
         <option value="$PROJECT_DIR$/Chapter_6/Ex3_picnicTable.py" />
         <option value="$PROJECT_DIR$/Chapter_6/Ex4_CopyPaste.py" />
         <option value="$PROJECT_DIR$/Chapter_6/Manipulating_String.py" />
@@ -146,7 +91,6 @@
         <option value="$PROJECT_DIR$/Chapter_11/mapit.py" />
         <option value="$PROJECT_DIR$/Chapter_11/example.html" />
         <option value="$PROJECT_DIR$/Chapter_11/iAmFeelingLucky.py" />
-        <option value="$PROJECT_DIR$/Chapter_11/downloadXkcd.py" />
         <option value="$PROJECT_DIR$/Chapter_11/webScraping.py" />
         <option value="$PROJECT_DIR$/Chapter_11/emailer.py" />
         <option value="$PROJECT_DIR$/Chapter_12/inserter.py" />
@@ -157,6 +101,13 @@
         <option value="$PROJECT_DIR$/Chapter_12/test/test2.txt" />
         <option value="$PROJECT_DIR$/Chapter_12/readLines.py" />
         <option value="$PROJECT_DIR$/Chapter_12/writeToText.py" />
+        <option value="$PROJECT_DIR$/Chapter_11/test_1.txt" />
+        <option value="$PROJECT_DIR$/Chapter_11/downloadXkcd.py" />
+        <option value="$PROJECT_DIR$/Chapter_11/imgDowload.py" />
+        <option value="$PROJECT_DIR$/Chapter_11/xkcd.py" />
+        <option value="$PROJECT_DIR$/Chapter_11/blogtruyen_fixverson.py" />
+        <option value="$PROJECT_DIR$/Chapter_11/blogtruyen_fixversion.py" />
+        <option value="$PROJECT_DIR$/Chapter_11/blogtruyen.py" />
       </list>
     </option>
   </component>
@@ -184,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,22 +145,25 @@
             <path>
               <item name="Python-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_12" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Project/Python_Project/Python-Practice/Chapter_11/downloadXkcd.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Python_Project\Python-Practice\Chapter_11" />
       <recent name="E:\Project\Python_Project\Python-Practice\Chapter_6" />
       <recent name="E:\Project\Python_Project\Pycharm\Automated_Boring_Stuff\Chapter5" />
     </key>
@@ -233,25 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.readLines">
-    <configuration name="csv_json_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_14" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_14/csv_json_files.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="emailer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.blogtruyen">
+    <configuration name="blogtruyen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -263,41 +199,41 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/emailer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/blogtruyen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="inserter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="downloadXkcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_12/inserter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/downloadXkcd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="quickWeather" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="imgDowload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_14/quickWeather.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/imgDowload.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,20 +255,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="xkcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Automated_Boring_Stuff" />
+      <option name="SCRIPT_NAME" value="E:\Project\Python_Project\Python-Practice\Chapter_11\blogtruyen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.emailer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.inserter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.csv_json_files" />
-      <item index="3" class="java.lang.String" itemvalue="Python.quickWeather" />
-      <item index="4" class="java.lang.String" itemvalue="Python.readLines" />
+      <item index="0" class="java.lang.String" itemvalue="Python.readLines" />
+      <item index="1" class="java.lang.String" itemvalue="Python.imgDowload" />
+      <item index="2" class="java.lang.String" itemvalue="Python.downloadXkcd" />
+      <item index="3" class="java.lang.String" itemvalue="Python.xkcd" />
+      <item index="4" class="java.lang.String" itemvalue="Python.blogtruyen" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.readLines" />
-        <item index="1" class="java.lang.String" itemvalue="Python.quickWeather" />
-        <item index="2" class="java.lang.String" itemvalue="Python.csv_json_files" />
-        <item index="3" class="java.lang.String" itemvalue="Python.inserter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.emailer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.blogtruyen" />
+        <item index="1" class="java.lang.String" itemvalue="Python.xkcd" />
+        <item index="2" class="java.lang.String" itemvalue="Python.imgDowload" />
+        <item index="3" class="java.lang.String" itemvalue="Python.downloadXkcd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.readLines" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +305,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -403,63 +356,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter_7/Ex2_Q20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7/Ex1_isPhoneNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_7/Ex_Q22.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_8/Christmast_tree.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter_8/bacon.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_8/Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_8/mydata.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_8/mydata.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_8/mydata.dir">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_8/myCats.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -642,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_11/downloadXkcd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_11/emailer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -695,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,26 +626,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_12/writeToText.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_12/readLines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/test_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81516">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/test_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="120" column="40" lean-forward="true" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/TestFolder/dying_gift.png" />
+    <entry file="file://$PROJECT_DIR$/Chapter_11/xkcd/dying_gift.png" />
+    <entry file="file://$PROJECT_DIR$/Chapter_11/imgDowload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/downloadXkcd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/xkcd/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen_fixversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen/1515855369-Isekai-Nonbiri-Nouka-chap-9-ve-chai-01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
