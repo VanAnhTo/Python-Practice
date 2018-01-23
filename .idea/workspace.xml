@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d6518e-8442-4000-8ecc-741b84d4ed03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/blogtruyen.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/blogtruyen_fixversion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/imgDowload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_11/test_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_15/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_15/stopwatch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +16,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogtruyen.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blogtruyen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="336">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stopwatch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter_15/stopwatch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chapter_15_Theory.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter_6/Ex3_picnicTable.py" />
-        <option value="$PROJECT_DIR$/Chapter_6/Ex4_CopyPaste.py" />
         <option value="$PROJECT_DIR$/Chapter_6/Manipulating_String.py" />
         <option value="$PROJECT_DIR$/Chapter6_Project_Password_Locker/pw.py" />
         <option value="$PROJECT_DIR$/Chapter_6/AddingBullets.py" />
@@ -108,6 +127,8 @@
         <option value="$PROJECT_DIR$/Chapter_11/blogtruyen_fixverson.py" />
         <option value="$PROJECT_DIR$/Chapter_11/blogtruyen_fixversion.py" />
         <option value="$PROJECT_DIR$/Chapter_11/blogtruyen.py" />
+        <option value="$PROJECT_DIR$/Chapter_15/stopwatch.py" />
+        <option value="$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py" />
       </list>
     </option>
   </component>
@@ -135,6 +156,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,14 +168,12 @@
             <path>
               <item name="Python-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_11" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_15" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.blogtruyen">
+  <component name="RunManager" selected="Python.chapter_15_Theory">
     <configuration name="blogtruyen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,19 +225,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="downloadXkcd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chapter_15_Theory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_11/downloadXkcd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,19 +259,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="readLines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stopwatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Automated_Boring_Stuff" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_12/readLines.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_15/stopwatch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,19 +294,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.readLines" />
-      <item index="1" class="java.lang.String" itemvalue="Python.imgDowload" />
-      <item index="2" class="java.lang.String" itemvalue="Python.downloadXkcd" />
-      <item index="3" class="java.lang.String" itemvalue="Python.xkcd" />
-      <item index="4" class="java.lang.String" itemvalue="Python.blogtruyen" />
+      <item index="0" class="java.lang.String" itemvalue="Python.imgDowload" />
+      <item index="1" class="java.lang.String" itemvalue="Python.xkcd" />
+      <item index="2" class="java.lang.String" itemvalue="Python.blogtruyen" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stopwatch" />
+      <item index="4" class="java.lang.String" itemvalue="Python.chapter_15_Theory" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.blogtruyen" />
-        <item index="1" class="java.lang.String" itemvalue="Python.xkcd" />
-        <item index="2" class="java.lang.String" itemvalue="Python.imgDowload" />
-        <item index="3" class="java.lang.String" itemvalue="Python.downloadXkcd" />
-        <item index="4" class="java.lang.String" itemvalue="Python.readLines" />
+        <item index="0" class="java.lang.String" itemvalue="Python.chapter_15_Theory" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stopwatch" />
+        <item index="2" class="java.lang.String" itemvalue="Python.blogtruyen" />
+        <item index="3" class="java.lang.String" itemvalue="Python.xkcd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.imgDowload" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +326,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -356,20 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter_8/myCats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/sre_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="887" column="0" lean-forward="false" selection-start-line="887" selection-start-column="0" selection-end-line="887" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_8/TestFolder/abc123.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -684,17 +691,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen/1515855369-Isekai-Nonbiri-Nouka-chap-9-ve-chai-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen/1515855369-Isekai-Nonbiri-Nouka-chap-9-ve-chai-01.jpg" />
     <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="336">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_15/stopwatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
