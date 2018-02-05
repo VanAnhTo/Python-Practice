@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d6518e-8442-4000-8ecc-741b84d4ed03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_15/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_15/stopwatch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_16/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter_16/sendEmailTextMessage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
       <file leaf-file-name="blogtruyen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="798">
               <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -31,21 +30,31 @@
       <file leaf-file-name="stopwatch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter_15/stopwatch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="357">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapter_15_Theory.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chapter_15_Theory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="436">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendEmailTextMessage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_16/sendEmailTextMessage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter_6/Manipulating_String.py" />
         <option value="$PROJECT_DIR$/Chapter6_Project_Password_Locker/pw.py" />
         <option value="$PROJECT_DIR$/Chapter_6/AddingBullets.py" />
         <option value="$PROJECT_DIR$/Chapter_6/pw.py" />
@@ -129,6 +137,7 @@
         <option value="$PROJECT_DIR$/Chapter_11/blogtruyen.py" />
         <option value="$PROJECT_DIR$/Chapter_15/stopwatch.py" />
         <option value="$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py" />
+        <option value="$PROJECT_DIR$/Chapter_16/sendEmailTextMessage.py" />
       </list>
     </option>
   </component>
@@ -156,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,12 +175,14 @@
             <path>
               <item name="Python-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_15" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,13 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter_8/TestFolder/abc123.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_8/TestFolder/1234">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -694,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen/1515855369-Isekai-Nonbiri-Nouka-chap-9-ve-chai-01.jpg" />
     <entry file="file://$PROJECT_DIR$/Chapter_11/blogtruyen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="798">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -704,7 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_15/stopwatch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="357">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -712,11 +714,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_15/chapter_15_Theory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="436">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_16/sendEmailTextMessage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
