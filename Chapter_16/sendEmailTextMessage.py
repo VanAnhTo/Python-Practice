@@ -76,4 +76,17 @@ UIDs = imapObj.gmail_search('meaning of life')
 rawMessages = imapObj.fetch(UIDs, ['BODY[]'])
 pprint.pprint(rawMessages)
 
+
 #Getting Email Addresses from a Raw Message
+message = pyzmail.PyzMessage.factory(rawMessages[5]['BODY[]'])
+
+print(message.get_subject())
+print('From******:' + message.get_addresses('from'))
+print('To******:' + message.get_addresses('to'))
+print('CC******:' + message.get_addresses('cc'))
+print('BCC******:' + message.get_addresses('bcc'))
+
+#Getting the Body from a Raw Message
+
+message.text_part.get_payload().decode(message.text_part.charset)
+message.html_part.get_payload().decode(message.html_part.charset)
