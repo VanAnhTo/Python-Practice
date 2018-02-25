@@ -2,6 +2,8 @@
 import smtplib
 import imapclient
 import pprint
+import imaplib
+from twilio.rest import TwilioRestClient
 
 '''
 smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
@@ -32,7 +34,7 @@ smtpObj.sendmail(' my_email_address@gmail.com ', ' recipient@example.com ',
 print(smtpObj.quit())
 '''
 
-
+'''
 imapObj = imapclient.IMAPClient('imap.gmail.com', ssl=True)
 print(imapObj.login(' anhanh29bg@gmail.com ', '******'))
 pprint.pprint(imapObj.list_folders())
@@ -90,3 +92,20 @@ print('BCC******:' + message.get_addresses('bcc'))
 
 message.text_part.get_payload().decode(message.text_part.charset)
 message.html_part.get_payload().decode(message.html_part.charset)
+'''
+#Sending Text Messages with Twilio
+
+#Signing Up for a Twilio Account
+#Go to http://twilio.com/ and fill out the sign-up form
+
+#Sending Text Messages
+accountSID = 'ACa8039a02c7a0e86febe8aff36630b46e'
+authToken = 'ae9eaa318aa0d43bcf6eab6db106c6f8'
+twilioCli = TwilioRestClient(accountSID, authToken)
+myTwilioNumber = '+841688099125'
+myCellPhone = '+841688099125'
+message = twilioCli.messages.create\
+    (body='Good morning.I am Anh.', from_=myTwilioNumber, to=myCellPhone)
+
+
+
