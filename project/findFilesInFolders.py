@@ -31,9 +31,9 @@ for folder,subfolders, fileNames in os.walk(imgFolder):
         #print('FILE NAME: '+fileName)
         size = os.path.getsize(folder + '\\' + fileName)
         if size > 9000:
-            print('File: '+ folder + subfolder + '\\' + fileName)
-            attachments.append(folder + subfolder + '\\' + fileName)
-            newZip.write(folder + subfolder + '\\' + fileName, compress_type=zipfile.ZIP_DEFLATED)
+            print('File: 'folder + '\\' + fileName)
+            attachments.append(folder + '\\' + fileName)
+            newZip.write(folder + '\\' + fileName, compress_type=zipfile.ZIP_DEFLATED)
 print('\n')
 
 print(attachments)
