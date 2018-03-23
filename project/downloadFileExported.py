@@ -4,7 +4,7 @@ import datetime, time
 
 
 browser = webdriver.Firefox(executable_path=r'D:\AnhTo\Setup\Wed_driver\geckodriver.exe')
-browser.get('http://vccb.lge.com:8080/cb/tracker/6065708?view_id=-2')
+browser.get('http://CoGaiThangMuoiHai/cb/tracker/6065708?view_id=-2')
 
 username = browser.find_element_by_id("user")
 username.send_keys("*******")
