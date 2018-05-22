@@ -5,19 +5,15 @@
 import openpyxl
 
 # Prepare the spreadsheets to copy from and paste too.
-'''
-wb = openpyxl.load_workbook('CommentToCodeBeamer.xlsx')
-sheet_score = wb.get_sheet_by_name('Score')
-sheet_comment = wb.get_sheet_by_name('Comment')
-'''
 
 # File to be copied
-wb = openpyxl.load_workbook("CommentToCodeBeamer.xlsx")  # Add file name
-sheet = wb.get_sheet_by_name('Score')  # Add Sheet name
+wb = openpyxl.load_workbook("File_Copy.xlsx")  # Add file name
+sheet = wb["Score"] # Add Sheet name
 
 # File to be pasted into
-#template = openpyxl.load_workbook("foo2.xlsx")  # Add file name
-temp_sheet = wb.get_sheet_by_name('Comment')  # Add Sheet name
+template = openpyxl.load_workbook("Paste_to.xlsx")  # Add file name
+temp_sheet = template["Sheet1"]  # Add Sheet name
+
 
 
 # Copy range of cells as a nested list
@@ -50,8 +46,24 @@ def pasteRange(startCol, startRow, endCol, endRow, sheetReceiving, copiedData):
 
 def createData():
     print("Processing...")
-    selectedRange = copyRange(1, 1, 10, 4, sheet)  # Change the 4 number values
-    pastingRange = pasteRange(1, 9, 10, 14, temp_sheet, selectedRange)  # Change the 4 number values
+    selectedRange = copyRange(1, 2, 8, 7, sheet)
+    print(selectedRange)# Change the 4 number values
+    pastingRange = pasteRange(2, 3, 9, 7, temp_sheet, selectedRange)  # Change the 4 number values
     # You can save the template as another file to create a new file here too.s
-    wb.save("CommentToCodeBeamer.xlsx")
+    template.save("Paste_to.xlsx")
     print("Range copied and pasted!")
+
+createData()
+
+def copyRangeWithStyle(startCol, startRow, endCol, endRow, sheet):
+    rangeSelected = []
+    # Loops through selected Rows
+    for i in range(startRow, endRow + 1, 1):
+        # Appends the row to a RowSelected list
+        rowSelected = []
+        for j in range(startCol, endCol + 1, 1):
+            rowSelected.append(sheet.cell(row=i, column=j).value)
+        # Adds the RowSelected List and nests inside the rangeSelected
+        rangeSelected.append(rowSelected)
+
+    return rangeSelected
