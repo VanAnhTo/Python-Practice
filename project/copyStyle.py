@@ -4,24 +4,33 @@ from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Fo
 from copy import copy
 
 # File to be copied
-wb = openpyxl.load_workbook("File_Copy.xlsx")  # Add file name
-sheet = wb["Score"] # Add Sheet name
+wb = openpyxl.load_workbook("DataToComment.xlsx")  # Add file name
+sheet = wb["Sheet1"] # Add Sheet name
+sheet_paste = wb["Sheet2"]
 
 
 
-a  = sheet['B1']
-b = sheet['G3']
-
-#print(b.font, b.border)
-
-a._style = copy(b._style)
+# a  = sheet['B1']
+# b = sheet['G3']
+#
+# #print(b.font, b.border)
+# a._style = copy(b._style)
 
 for r in range(1,5):
     for c in range (1,11):
-        v = sheet_comment.cell(row =r, column=c)
+        v = sheet.cell(row =r, column=c)
         p = sheet_paste.cell(row=r, column=c)
         p._style = v._style
         p.value = v.value
+
+sheet_paste.merge_cells('B1:G1')
+sheet_paste.merge_cells('H1:I1')
+sheet_paste.merge_cells('J1:J2')
+sheet_paste.merge_cells('J3:J4')
+
+wb.save("DataToComment.xlsx")
+
+
 
 # ft = Font(color=colors.RED, name='Arial', size=18)
 # a.font = ft
@@ -40,7 +49,6 @@ for r in range(1,5):
 # a.border = bor
 
 
-wb.save("File_Copy.xlsx")
 
 '''
 for row in sheet.rows:
