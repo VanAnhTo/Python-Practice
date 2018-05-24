@@ -16,6 +16,13 @@ b = sheet['G3']
 
 a._style = copy(b._style)
 
+for r in range(1,5):
+    for c in range (1,11):
+        v = sheet_comment.cell(row =r, column=c)
+        p = sheet_paste.cell(row=r, column=c)
+        p._style = v._style
+        p.value = v.value
+
 # ft = Font(color=colors.RED, name='Arial', size=18)
 # a.font = ft
 # fl = PatternFill(fill_type= 'solid' , start_color='FFFFCC')
