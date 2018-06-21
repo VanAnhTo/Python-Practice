@@ -2,6 +2,12 @@ import openpyxl
 import openpyxl.cell
 from openpyxl.styles import Font
 
+import os
+
+os.system("CoytoClipboard.exe")
+
+
+'''
 #Getting Sheets from the Workbook
 from openpyxl.utils import get_column_letter, column_index_from_string
 
@@ -18,3 +24,4 @@ for row in range (2, sheet_score.max_row+1):
 
 
         print('--- END OF ROW ---')
+'''
