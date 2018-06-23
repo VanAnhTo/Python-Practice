@@ -25,3 +25,22 @@ for row in range (2, sheet_score.max_row+1):
 
         print('--- END OF ROW ---')
 '''
+btnLogin = driver.find_element_by_css_selector(".login_button")
+btnLogin.click()
+
+time.sleep(2)
+
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+commentTab = driver.find_element_by_id("task-details-attachments-tab")
+commentTab.click()
+
+commentLinkText = driver.find_element_by_css_selector(".addCommentLink a")
+commentLinkText.click()
+
+frame = driver.find_element_by_id("editor_new_ifr")
+driver.switch_to.frame(frame)
+time.sleep(2)
+
+commentField = driver.find_element_by_id("tinymce")
+commentField.send_keys()
