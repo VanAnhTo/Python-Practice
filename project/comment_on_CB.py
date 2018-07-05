@@ -48,39 +48,48 @@ btnLogin.click()
 time.sleep(2)
 
 for r in range (2, numberOfId+1):
-    srs_ID = sheet_score['A'+ str(r)].value
-    logging.debug('Running SRS_ID: ' + str(srs_ID))
-    driver.get(my_config.srs_link + str(srs_ID))
-    time.sleep(2)
+    #Check score is exist:
+    score_value = sheet_score.cell(row=r,column=9).value
+    logging.debug('Score value: ' + str(score_value))
 
-    for c in range(1, 10):
-        v = sheet_score.cell(row=r, column=c + 8)  # Data copied with row increased every cover loop
-        p = sheet_comment.cell(row=3, column=c)  # Data filled to the fixed row of the comment file row =3.
-        p.value = v.value
+    if score_value == 'G' or score_value == 'R':
+        srs_ID = sheet_score['A'+ str(r)].value
+        logging.debug('Running SRS_ID: ' + str(srs_ID))
+        driver.get(my_config.srs_link + str(srs_ID))
+        time.sleep(2)
 
-    wb.save(my_config.comment_file)
+        for c in range(1, 10):
+            v = sheet_score.cell(row=r, column=c + 8)  # Data copied with row increased every cover loop
+            p = sheet_comment.cell(row=3, column=c)  # Data filled to the fixed row of the comment file row =3.
+            p.value = v.value
 
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        wb.save(my_config.comment_file)
 
-    commentTab = driver.find_element_by_id("task-details-attachments-tab")
-    commentTab.click()
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
-    commentLinkText = driver.find_element_by_css_selector(".addCommentLink a")
-    commentLinkText.click()
+        commentTab = driver.find_element_by_id("task-details-attachments-tab")
+        commentTab.click()
 
-    frame = driver.find_element_by_id("editor_new_ifr")
-    driver.switch_to.frame(frame)
+        commentLinkText = driver.find_element_by_css_selector(".addCommentLink a")
+        commentLinkText.click()
 
-    os.system(my_config.autoIT_copy_data_exe)
+        frame = driver.find_element_by_id("editor_new_ifr")
+        driver.switch_to.frame(frame)
 
-    commentField = driver.find_element_by_id("tinymce")
-    commentField.send_keys(Keys.CONTROL, "v")
+        os.system(my_config.autoIT_copy_data_exe)
 
-    #commentField.send_keys(Keys.CONTROL, "s")
+        commentField = driver.find_element_by_id("tinymce")
+        commentField.send_keys(Keys.CONTROL, "v")
 
-    os.system(my_config.autoIT_close_excel)
+        commentField.send_keys(Keys.CONTROL, "s")
 
-    time.sleep(3)
+        os.system(my_config.autoIT_close_excel)
+
+        time.sleep(3)
+
+    else:
+        logging.debug('SRS is skipped: ' + str(sheet_score['A' + str(r)].value)+ ' because the score is not valid.')
+
 
 driver.quit()
 
